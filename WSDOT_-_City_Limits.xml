@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20220913</pubdate>
+                <title>City Limits of Washington State, August 2022</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://data.wsdot.wa.gov/arcgis/rest/services/Shared/PoliAdminBndryData/MapServer/1</onlink>
+                <onlink>https://data.wsdot.wa.gov/geospatial/DOT_TDO/CityLimits/CityLimits.zip</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Polygons depict the boundaries of Washington State's incorporated municipalities, as recorded by the Washington State Office of Financial Management. Attributes include city names as provided by the Washington State Office of Financial Management, and Federal Information Processing Standard codes(FIPS) as provided by the National Institute of Standards and Technology. The Washington State Office of Financial Management provided FIPS codes for cities incorporated after the National Institute of Standards and Technology's FIPS code publication date. GNIS (Geographic Name Information System) codes provided by the Washington State Department of Revenue have been included for this quarter. For this particular update, all annexations approved by Office of Financial Management for Fourth Quarter of 2022 are included. Please direct questions about this dataset to: TransportationGISDataSteward@wsdot.wa.gov.</abstract>
+            <purpose>Boundaries of incorporated municipalities of Washington State as recorded by the Washington State Office of Financial Management. This data set is used as a reference layer for geographic information systems at the Washington State Department of Transportation.</purpose>
+            <supplinf>The calendar date under time period of content is the date of annexation approval and certification by the Washington State Office of Financial Management. Beginning with the publication of the first quarter of 2015, cartographic offsets from roads and railroads will no longer be applied to new annexations.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20220831</caldate>
+                    <time>unknown</time>
+                </sngdate>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Quarterly</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-124.495537</westbc>
+                <eastbc>-116.847121</eastbc>
+                <northbc>49.023764</northbc>
+                <southbc>45.511185</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>cities</themekey>
+                <themekey>incorporated</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Washington</placekey>
+                <placekey>Pacific Northwest</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Data provided here is used by the Washington State
+Department of Transportation's transportation partners, government entities,
+schools, private businesses, and the general public. The Washington State
+Department of Transportation shall not be liable for any activity involving
+these data, including, but not limited to, lost profits or savings or any other
+economic or consequential damages. Nor does the Department warrant the fitness
+of the data for use for a particular purpose, or the installation of the data,
+its use, or the results obtained.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington State Department of Transportation</cntorg>
+                    <cntper>Transportation GIS Data Steward</cntper>
+                </cntorgp>
+                <cntpos>Transportation GIS Data Steward</cntpos>
+                <cntemail>TransportationGISDataSteward@wsdot.wa.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+        <crossref>
+            <citeinfo>
+                <origin/>
+                <pubdate>20071206</pubdate>
+                <title>Major Cities of Washington State</title>
+                <geoform>map</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>Washington State Department of Transportation</publish>
+                </pubinfo>
+            </citeinfo>
+        </crossref>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>City names spellings are as specified by the Washington State Office of Financial Management. Federal Information Processing Standards (FIPS) codes are as provided by download from the National Institute of Standards and Technology web site. The Washington State Office of Financial Management has provided FIPS codes for cities incorporated after the 1998 FIPS code publication date. Geographic Names Information System (GNIS) codes provided by the Washington State Department of Revenue have been added.</attraccr>
+        </attracc>
+        <complete>The data represents every city known to be incorporated in the State of Washington as of the date shown in Time Period of Content.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>City limit boundaries were digitized from a variety of map sources including USGS quadrangles and WSDOT city maps. Generally, the data approach National Map Accuracy Standards for 1:24,000 scale: most well-defined points may be expected to fall within 40 feet of their true locations. Where a city limit follows the edge of a public right of way, the city limit line has been offset approximately 75 feet from the line representing the street on WSDOT-digitized 1:24,000-scale base data. Where a city limit adjoins a street not represented in WSDOT data, the city limit's position including the 75 foot offset has been estimated by measurement from the nearest available reference features in the base data (other roads, railroads, boundaries, section lines, pipelines, streams, etc.) Where a city limit follows a section line, this data set depicts it following that line as located on WSDOT's 1:24,000-scale base data, whether or not a right of way is coincident with the section line. In some cases, city limits follow a right of way centerline, and are shown coincident with the line representing that road in WSDOT's 1:24,000-scale base data. This occurs only on some old city limits established prior to the outlaw of such practice. Where a city limit follows the edge of a railroad right of way, the city limit has been offset a standard 100 feet from the line representing the railroad on WSDOT-digitized 1:24,000-scale base data. Beginning with the First Quarter of 2015, the offsets described above will no longer be applied to new annexations.</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>Dataset updated to include annexations in the fourth quarter of 2022.</procdesc>
+                <procdate>20220908</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Washington State Department of Transportation</cntorg>
+                            <cntper>Transportation GIS Data Steward</cntper>
+                        </cntorgp>
+                        <cntpos>Transportation GIS Data Steward</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 47384</address>
+                            <city>Olympia</city>
+                            <state>WA</state>
+                            <postal>98504-7384</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntfax>360-570-2400</cntfax>
+                        <cntemail>TransportationGISDataSteward@wsdot.wa.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>281</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>CityLimits</enttypl>
+                <enttypd>Boundaries of incorporated municipalities of Washington State as recorded by the Washington State Office of Financial Manageme</enttypd>
+                <enttypds>Washington State Department of Transportation, Office of Cartography and GIS</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>CountySeat</attrlabl>
+                <attrdef>The town or City that is the location of government for a County</attrdef>
+                <attrdefs>WSDOT Application – DOTS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CityName</attrlabl>
+                <attrdef>The common name of a primarily urban political unit having corporate status and usually powers of self-government established by state charter. City Names are stewarded by Washington State's Office of Financial Management.</attrdef>
+                <attrdefs>WSDOT Application – DOTS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LastUpdate</attrlabl>
+                <attrdef>This is the ending date of the quarter the city boundary was last modified.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CityGNISPlaceCode</attrlabl>
+                <attrdef>A code that represents an incorporated city in Washington State. The Code is administered and maintained by the US Board of Geographic Names within the Geographic Names Information System.</attrdef>
+                <attrdefs>WSDOT Application – DOTS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>MajorCity</attrlabl>
+                <attrdef>Major city is a cartographic designation.  A city is considered to be a major city if the city holds a county seat; other criteria include population and the presence on historical maps.  There are no more than 5 "major" cities in a county.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CountyFIPSLongPlaceCode</attrlabl>
+                <attrdef>A code that is a concatenation of State FIPS Place Code and County FIPS Place Code, administered and maintained by the American National Standards Institute for the federal government assigned to a county within Washington State. The code is based on the 2000 and 2010 US Census.</attrdef>
+                <attrdefs>WSDOT Application – DOTS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                                  
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CityFIPSLongPlaceCode</attrlabl>
+                <attrdef>A code that represents a concatenation of the State FIPS 55 Code and the City FIPS 55 Code , administered and maintained by ANSI. These codes originate from the 2000 and 2010 US Census.</attrdef>
+                <attrdefs>WSDOT Application – DOTS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>OFMCityCode</attrlabl>
+                <attrdef>A code based on the 1990 US Census that represents Washington places. Since US Census Bureau no longer maintains 1990 place codes, Washington State Office of Financial Management, assigns codes for cities in Washington State which incorporated after 1999.</attrdef>
+                <attrdefs>WSDOT Application – DOTS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                                  
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GlobalID</attrlabl>
+                <attrdef>UniqueID used for the replication of data.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STArea()</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STLength()</attrlabl>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>Each incorporated place is represented by one or more polygons constructed from a legal description of its boundaries.  Polygons are attributed with the name of the incorporated entity, Federal Information Processing Standards code and Geographic Names Information System code .  County Seats are also indicated in a separate column.  A field was added called LastUpdate and the contents are the ending date of the quarter in which the city boundary was last changed.</eaover>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington State Department of Transportation, Office of Information Technology</cntorg>
+                    <cntper>Jordyn Mitchell</cntper>
+                </cntorgp>
+                <cntpos>GIS Database Administrator</cntpos>
+                <cntemail>jordyn.mitchell@wsdot.wa.gov</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>The Washington State Department of Transportation shall not be liable for any activity involving this data with regard to lost profits or savings or any other consequential damages; or the fitness for use of the data for a particular purpose; or the installation of the data, its use, or the results obtained.</distliab>
+        <custom>Download individual data sets from https://gisdata-wsdot.opendata.arcgis.com</custom>
+    </distinfo>
+    <metainfo>
+        <metd>20220913</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>WSDOT</cntorg>
+                    <cntper>Transportation GIS Data Steward</cntper>
+                </cntorgp>
+                <cntpos>Transportation GIS Data Steward</cntpos>
+                <cntemail>TransportationGISDataSteward@wsdot.wa.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
